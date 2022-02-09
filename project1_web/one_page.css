@@ -1,0 +1,85 @@
+body{
+    background-color: antiquewhite;
+}
+input, textarea{
+    padding: 5px;
+    outline: 0;
+    border: 1px solid black;
+    color: blue;
+    font-size: 15px;
+}
+label{
+    color: black;
+    cursor: text;
+    transition: 0.2s;
+}
+main{
+    background-image: url(grap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+}
+img{
+    margin-right: 300px;
+}
+
+.forms{
+    border: 1px solid black;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    background-color: aquamarine;
+    display: block;
+}
+form {
+    display: inline-block;
+}
+footer{
+    background-color: brown;
+    background-position: bottom;
+    height: 300px;
+}
+.put_in{
+    padding: 2px;
+}
+.over{
+    display: flex;
+}
+.social-links{
+    display: flex;
+}
+.social-links, ul{
+    padding: 10px;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+.social-items{
+    list-style: none;
+}
+.social-items, .over{
+    padding: 20px;
+    font-size: 35px;
+    color: black;
+    transition: all .25s;
+}
+.social-items, .over:hover{
+    color: cyan;
+}
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+button{
+    padding: 10px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 15px;
+}
+p{
+    font-size: 30px;
+    color: black;
+}
